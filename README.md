@@ -21,3 +21,7 @@ There is definitely some fine tuning to be done, but I wanted to put a draft up 
 - If a line contains only a newline, you cant move the cursor to it by clicking it. The index_for_position code needs to be modified a bit more
 - Much more I'm sure. I just kind of brute forced the design. For example it would probably make sense to accept a view that implements ViewInputHandler as well as just a Model<String> with a custom InputHandler.
 - I'm sure there are some optimizations that could be done.
+
+### References
+
+- [fork of ijsnow zed with text-input branch ](https://github.com/stormblog/zed/tree/text-input)
